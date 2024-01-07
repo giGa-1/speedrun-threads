@@ -1,0 +1,14 @@
+<form class="felx flex-col items-end gap-3 mb-5" (submit)="formSubmit($event)">
+  <textarea
+    name="text"
+    [placeholder]='placeholder'
+    rows="3"
+    class="w-full border resize-none py-1.5 px-3 border-gray-900 rounded-md"
+  ></textarea>
+  <button
+  type="submit"
+  class="inline-block rounded border border-current px-4 py-1.5 text-sm font-medium transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring"
+>
+  {{buttonText}}
+</button>
+</form>
